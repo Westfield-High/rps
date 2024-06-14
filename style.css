@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#wholegame {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align:center;
+  border: 3px solid black;
+  border-radius:20px;
+  background-color: #4e8eca;
+}
+
+#header {
+  background-color:##ff9500;
+  padding:0;
+  margin-bottom:20px;
+}
+
+#logo img {
+  vertical-align: middle;
+   border-radius:20px;
+}
+
+#title img {
+  vertical-align: middle;
+}
+
+#board {
+  background-color: #982334;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #007675;
+  padding:10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius:5px;
+}
+
+button:hover {
+  background-color: #6a3d24;
+  border-color: white;
+  color: white;
+}
+
+#winner-image img{
+  vertical-align: middle;
+  width: 150px;
+  height:150px;
+}
+
+#winner-image {
+  float:left;
+  text-align:right;
+  width:40%;
+}
+#righttext {
+  float:right;
+  text-align:left;
+  width:20%;
+  margin-right:35%;
+  background-color:white;
+  padding:10px;
+  height:120px;
+}
+#bets {
+  float:left;
+  margin:auto;
+  width:100%;
+}
+
+#board {
+  margin-top:180px;
+}
